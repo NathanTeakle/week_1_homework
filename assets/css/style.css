@@ -1,0 +1,200 @@
+/* GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-color: #d9dcd6;
+}
+
+/* HEADER */
+
+header 
+{
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #D82C2C;
+    color: whitesmoke;
+    
+}
+
+header h1 
+{
+    display: inline-block;
+    font-size: 64px;
+}
+
+header h1 .seo 
+{
+    color: #999494;
+}
+
+header nav 
+{
+    padding-top: 55px;
+    margin-right: 18px;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+header nav
+
+a:hover {
+    color: black;
+    transition: 0.7s;
+    text-decoration: underline;
+    background-color: #5B4E4E;
+    color: white;
+    padding: 0.7em 1em;
+    border-radius: 40px;
+    text-decoration: none;
+    text-transform: none;
+  }
+  
+
+header nav ul 
+{
+    list-style-type: none;
+}
+
+header nav ul li 
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* TEXT STYLES */
+
+a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p 
+{
+    font-size: 16px;
+}
+
+/* HERO DIV WITH BACKGROUND IMAGE */
+
+.hero 
+{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* FLOATS */
+
+.float-left 
+{
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right 
+{
+    float: right;
+    margin-left: 25px;
+}
+
+/* MAIN */
+
+main 
+{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* BENEFITS ASIDE */
+
+.benefits 
+{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #E83C3C;
+}
+
+.benefit 
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3 
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img 
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* SERVICES SECTIONS */
+
+.service 
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: grey;
+    color: #ffffff;
+}
+
+.service img 
+{
+    max-height: 200px;
+}
+
+.service h2 
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* FOOTER */
+
+footer 
+{
+    padding: 30px;
+    clear: both;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+footer h2 
+{
+    font-size: 20px;
+}
+body, html {
+    height: 100%;
+  }
+  
+.parallax 
+{
+    background-image: url("../homework/horizon.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
